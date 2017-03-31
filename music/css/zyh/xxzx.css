@@ -1,0 +1,65 @@
+body{
+	background: url(../../images/zyh/zyh_bj.png)no-repeat center center/cover;
+}
+section{
+	padding: 0.07rem 0.23rem 0 0.15rem;
+}
+.zyh_zx{
+	width: 100%;
+	height: 1.7rem;
+	border-top: 1px solid #8F7F77;
+	position: relative;
+}
+.zyh_zx i{
+	position: absolute;
+	background: #EADEDA;
+	top:0;
+	height: 1px;
+}
+.zyh_zx i:nth-child(1){
+	width: 0.34rem;
+	left:1.12rem;
+}
+.zyh_zx i:nth-child(2){
+	width: 1rem;
+	left:3.27rem;
+}
+.zyh_zx i:nth-child(3){
+	width: 0.34rem;
+	right: 1.16rem;
+}
+.zyh_zx:last-child{
+	border-bottom: 1px solid #8f7f77;
+}
+.zyh_zx p{
+	float: right;
+	line-height: 1.7rem;
+	font-size: 10px;
+	color: #DEDAD9;
+}
+.zyh_zx .img{
+	width: 1.2rem;
+	height: 1.2rem;
+	float: left;
+	margin-top: 0.2rem;
+	margin-right: 0.1rem;
+}
+.zyh_zx .img img{
+	width: 100%;
+}
+.zyh_zx .wz{
+	float: left;
+	height: 100%;
+}
+.zyh_zx .wz span{
+	display: block;
+	color: #fff;
+}
+.zyh_zx .wz span:nth-child(1){
+	font-size: 16px;
+	padding-top: 0.4rem;
+}
+.zyh_zx .wz span:nth-child(2){
+	font-size: 12px;
+	padding-top: 0.1rem;
+}

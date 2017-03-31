@@ -1,0 +1,171 @@
+<!--fjj-->
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <link rel="stylesheet" type="text/css" href="css/mui.css"/>
+    <link rel="stylesheet" type="text/css" href="css/bass.css"/>
+    <link rel="stylesheet" type="text/css" href="css/fjj-pay.css"/>
+    <script src="js/rem.js"></script>
+</head>
+<style>
+	html,body {
+		height: 100%;
+	}
+	body {
+		padding-top: 1.6rem;
+	}
+</style>
+<body>
+    <!--header 付费服务-->
+    <header class="fjj-pay-header">
+    	<div class="container">
+	    	<!--背景层-->
+	    	<div class="bg">付费服务</div>
+	    	<!--实现层-->
+	    	<div class="front">
+	    		<p class="big-title">
+	    			付<span class="center" style="background: #0BE0D8;"></span>费<span class="center" style="background: #EE686B;"></span>服<span class="center" style="background: #CA9C90;"></span>务<span class="right big" style="background: #13ABA9;"></span><span class="right little" style="background: #BA585E;"></span>
+	    		</p>
+	    		<p class="line">
+	    			<span></span>
+	    		</p>
+	    		<p class="en-title">
+	    			<span>PAID</span>
+	    			services
+	    		</p>
+	    	</div>
+	    	<!--装饰层-->
+	    	<ul class="fjj-line">
+	    		<li class="one"></li>
+	    		<li class="two"></li>
+	    		<li class="three"></li>
+	    	</ul>
+	    	<!--跳转区-->
+	    	<div class="back">
+	    		<a href="###" class="back">
+	    			<img src="images/fjj/back.png"/>
+	    		</a>
+	    	</div>
+	    </div>
+    </header>
+    <!--end 付费服务-->
+    
+    
+    <!--底部固定-->
+    <footer class="fjj-pay-method">
+    	<p class="zh-title">悦听钱包支付保障您的资金安全</p>
+    	<p class="en-title">Hui wallet wallet payment to protect your financial security</p>
+    	<p class="line"></p>
+    </footer>
+    
+    
+		
+		<div class="container pay-method">
+			
+			<!--主体线条-->
+			<ul class="fjj-line main-line">
+				<li class="one"></li>
+				<li class="two"></li>
+				<li class="three"></li>
+			</ul>
+			
+			<!--选择支付方式-->
+			<div class="select-pay-method">
+				
+				
+				<div class="title">
+					<p class="zh">选择支付 方式</p>
+					<p class="en">Select payment <span>method</span></p>
+				</div>
+				
+				<ul class="list">
+					<li class="item">
+						<a href="will-pay.html">
+							<img src="images/fjj/bank-icon.png" alt="" class="icon" />
+							<div class="desc">
+								<p class="big-desc">银行卡支付</p>
+								<p class="sub-desc">使用绑定的银行卡可在线支付</p>
+							</div>
+							<div class="other">
+								<p class="num">3</p>
+							</div>
+						</a>
+					</li>
+					<li class="item">
+						<a href="javascript:;">
+							<img src="images/fjj/yueting-wallet.png" alt="" class="icon" />
+							<div class="desc">
+								<p class="big-desc">悦听钱包支付</p>
+								<p class="sub-desc">使用本地钱包可获得更大优惠</p>
+							</div>
+							<div class="other">
+								<img src="images/fjj/hot-icon.png" alt="" class="hot" />
+							</div>
+						</a>
+					</li>
+					<li class="item">
+						<a href="javascript:;">
+							<img src="images/fjj/others-pay.png" alt="" class="icon" />
+							<div class="desc">
+								<p class="big-desc">找人代付</p>
+								<p class="sub-desc">可以找亲朋好友帮您支付,更显亲近哦</p>
+							</div>
+							<div class="other"></div>
+						</a>
+					</li>
+					
+				</ul>
+				
+				
+			</div>
+			
+			
+			
+			<!--其他的支付方式-->
+			<div class="other-pay-method">
+				
+				<div class="title">
+					<img class="money-icon" src="images/fjj/money-icon.png"/>
+					<p class="zh">其他支付方式</p>
+					<p class="en"><strong>PAYMENT</strong> METHOD</p>
+				</div>
+				
+				<div class="list-box">
+					<ul class="list">
+						<li class="item">
+							<a href="javascript:;" class="active">
+								<img src="images/fjj/zhifubao.png" alt="" />
+							</a>
+						</li>
+						<li class="item">
+							<a href="javascript:;">
+								<img src="images/fjj/wechat.png" alt="" />
+							</a>
+						</li>
+						<li class="item">
+							<a href="javascript:;">
+								<img src="images/fjj/others-pay-method.png" alt="" />
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	
+	
+	
+	<script src="js/zepto.min.js"></script>
+	<script>
+		$("header.fjj-pay-header .back").on("click",function(){
+    		history.go(-1);
+    	})
+	</script>	
+	
+	
+	
+	
+</body>
+</html>

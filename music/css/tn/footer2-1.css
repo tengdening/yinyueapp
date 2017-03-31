@@ -1,0 +1,34 @@
+html,body{
+	font-size: 16px;
+}
+.tn-foot{
+	height: 1.5rem;
+	width: 100%;
+	background: #433440;
+	box-sizing: border-box;
+	padding: 0 0.24rem;
+}
+.tn-foot-box{
+	width: 100%;
+	height:100%;
+	display: flex;
+	align-items:center;
+	justify-content:space-between;
+}
+.tn-foot-box>a{
+	display: flex;
+	flex-direction:column;
+	justify-content: center;
+	align-items: center;
+}
+.tn-foot-box>a img{
+	width: 0.7rem;
+	margin-bottom: 0.06rem;
+}
+.tn-foot-box>a span{
+	font-size: 10px;
+	color: #fff;
+}
+.tn-foot-box>a:nth-child(2)>span{
+	color: #daa99a;
+}

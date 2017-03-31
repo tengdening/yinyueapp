@@ -1,0 +1,294 @@
+.scx-bodyBox {
+  background: url(../../images/scx/scx-bj.png) no-repeat center center / cover;
+  // padding-top: 1.16rem;
+  box-sizing: border-box;
+}
+.scx-body-topbox {
+  width: 100%;
+  height: 1.16rem;
+  padding: 0 0.24rem;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  background: #3F313E;
+}
+.scx-body-topbox .scx-body-topbox-left {
+  width: 0.53rem;
+  height: 0.53rem;
+  float: left;
+}
+.scx-body-topbox .scx-body-topbox-left img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin-top: 0.22rem;
+}
+.scx-body-topbox .scx-body-conterbox {
+  width: 5.25rem;
+  height: 0.53rem;
+  float: left;
+  margin: 0.22rem 0.35rem 0;
+  position: relative;
+}
+.scx-body-topbox .scx-body-conterbox input {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border-radius: 20px;
+  border: 1px solid #746973;
+  background: #534652;
+}
+.scx-body-topbox .scx-body-conterbox .scx-body-conter {
+  width: 2.7rem;
+  height: 0.3rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.scx-body-topbox .scx-body-conterbox .scx-body-conter .scx-body-conter-left {
+  width: 0.29rem;
+  height: 0.29rem;
+  float: left;
+}
+.scx-body-topbox .scx-body-conterbox .scx-body-conter .scx-body-conter-left img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.scx-body-topbox .scx-body-conterbox .scx-body-conter .scx-body-conter-p1 {
+  width: 2.4rem;
+  height: 100%;
+  float: left;
+  line-height: 0.29rem;
+  font-size: 12px;
+  color: #6B636A;
+}
+.scx-body1-topbox {
+  width: 6.7rem;
+  height: 1.05rem;
+  margin: 0.16rem auto 0.27rem;
+  position: relative;
+}
+.scx-body1-topbox .scx-body1-topbox-left {
+  width: 2.35rem;
+  height: 0.46rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  border: 1px solid #D9D0CD;
+  border-radius: 15px;
+  background: rgba(0, 0, 0, 0);
+}
+.scx-body1-topbox .scx-body1-topbox-left img {
+  width: 0.35rem;
+  height: 0.37rem;
+  display: block;
+  float: left;
+  margin: 0.02rem 0.1rem;
+}
+.scx-body1-topbox .scx-body1-topbox-left p {
+  width: auto;
+  height: auto;
+  font-size: 12px;
+  line-height: 0.46rem;
+  color: #D9D0CD;
+}
+.scx-body1-topbox .scx-body1-topbox-content {
+  width: 1.05rem;
+  height: 100%;
+  margin: 0 auto;
+}
+.scx-body1-topbox .scx-body1-topbox-content img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.scx-body1-topbox .scx-body1-topbox-right {
+  width: 2.6rem;
+  height: 0.46rem;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  border: 1px solid #D9D0CD;
+  border-radius: 15px;
+  background: rgba(0, 0, 0, 0);
+}
+.scx-body1-topbox .scx-body1-topbox-right img {
+  width: 0.35rem;
+  height: 0.37rem;
+  display: block;
+  float: left;
+  margin: 0.02rem 0.1rem;
+}
+.scx-body1-topbox .scx-body1-topbox-right p {
+  width: auto;
+  height: auto;
+  font-size: 12px;
+  line-height: 0.46rem;
+  color: #D9D0CD;
+}
+.scx-body1-zhanghaobox {
+  width: 3.61rem;
+  height: 0.53rem;
+  margin: 0 auto 0.26rem;
+}
+.scx-body1-zhanghaobox img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.scx-body2-topbox {
+  width: 5.44rem;
+  height: 6rem;
+  margin: 0 auto;
+}
+.scx-body2-topbox ul {
+  width: 100%;
+  height: 100%;
+}
+.scx-body2-topbox ul li {
+  float: left;
+  margin-right: 0.86rem;
+  margin-bottom: 0.3rem;
+}
+.scx-body2-topbox ul li img {
+  width: 2.28rem;
+  height: 2.28rem;
+  display: block;
+}
+.scx-body2-topbox ul li .scx-body2-textbox {
+  width: 1.81rem;
+  height: 0.7rem;
+  display: block;
+  margin: -0.15rem auto 0;
+  background: #EADEDA;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.scx-body2-topbox ul li .scx-body2-textbox .scx-body2-textbox-img {
+  width: 0.35rem;
+  height: 0.35rem;
+  float: left;
+  margin-top: 0.16rem;
+  margin-left: 0.1rem;
+}
+.scx-body2-topbox ul li .scx-body2-textbox .scx-body2-textbox-img img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.scx-body2-topbox ul li .scx-body2-textbox .scx-body2-text {
+  width: auto;
+  height: 0.42rem;
+  float: left;
+  margin-top: 0.1rem;
+}
+.scx-body2-topbox ul li .scx-body2-textbox .scx-body2-text .scx-p1 {
+  font-size: 12px;
+  color: #2b2b2b;
+}
+.scx-body2-topbox ul li .scx-body2-textbox .scx-body2-text .scx-p2 {
+  font-size: 12px;
+  color: #2b2b2b;
+}
+.scx-conter-xianbox {
+  width: 100%;
+  height: 0.03rem;
+  margin: 0.34rem 0;
+}
+.scx-conter-xianbox img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.scx-conter-gexingbox {
+  width: 7.02rem;
+  height: 1.2rem;
+  display: block;
+  margin: 0 auto 0.14rem;
+}
+.scx-conter-gexingbox img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.scx-conter-gedanbox {
+  width: 7.02rem;
+  height: 0.89rem;
+  margin: 0 auto 0.14rem;
+}
+.scx-conter-gedanbox img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.scx-body3-topbox {
+  width: 7.02rem;
+  height: 1.2rem;
+  margin: 0 auto 0.15rem;
+  position: relative;
+}
+.scx-body3-topbox img {
+  width: 1.34rem;
+  height: 100%;
+  display: block;
+}
+.scx-body3-topbox .scx-body3-rightbox {
+  width: 5.91rem;
+  height: 100%;
+  position: absolute;
+  border-radius: 10px;
+  background: #fff;
+  padding: 0.3rem 0.22rem 0 0.49rem;
+  top: 0;
+  right: 0;
+}
+.scx-body3-topbox .scx-body3-rightbox .scx-body3-leftbox {
+  width: auto;
+  float: left;
+  height: auto;
+}
+.scx-body3-topbox .scx-body3-rightbox .scx-body3-leftbox .scx-p1 {
+  width: auto;
+  font-size: 16px;
+  color: #000;
+}
+.scx-body3-topbox .scx-body3-rightbox .scx-body3-leftbox .scx-body3-textbox {
+  width: auto;
+  height: 0.2rem;
+  margin-top: 0.1rem;
+}
+.scx-body3-topbox .scx-body3-rightbox .scx-body3-leftbox .scx-body3-textbox .scx-textbox-p1 {
+  font-size: 12px;
+  float: left;
+  color: #9A9A9A;
+}
+.scx-body3-topbox .scx-body3-rightbox .scx-body3-leftbox .scx-body3-textbox img {
+  width: 0.24rem;
+  height: 0.19rem;
+  display: block;
+  float: left;
+  margin: 0.03rem 0.1rem;
+}
+.scx-body3-topbox .scx-body3-rightbox a {
+  float: right;
+  display: block;
+  width: 0.41rem;
+  margin-left: 0.1rem;
+  margin-top: 0.2rem;
+  height: 0.41rem;
+}
+.scx-body3-topbox .scx-body3-rightbox a img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}

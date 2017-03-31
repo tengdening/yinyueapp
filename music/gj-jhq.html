@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="renderer" content="webkit"/>
+<meta http-equiv="X-UA-COMPATIBLE" content="IE-Edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=0">
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/gj/gj-jhq.css">
+<script src="js/rem.js"></script>
+<script src="js/touch.min.js"></script>
+	<title>均衡器</title>
+</head>
+<body>
+<!-- 头部 -->
+<header class="tn-head">
+    <div class="tn-headbox">
+      <i class="tn-t1"></i>
+      <i class="tn-t2"></i>
+      <i class="tn-t3"></i>
+      <a href="javascript: window.history.go(-1);" class="tn-left">
+        
+      </a>
+      <span>均衡器</span>
+      <a>
+        
+      </a>
+    </div>
+  </header>
+<!-- 中部 -->
+<section>
+<div class="nk">
+	<div class="progress">
+    <div class="inner">
+      <div class="anniu"></div>
+    </div>
+<div class="gn">左声道</div>
+  </div>
+  <div class="progress">
+    <div class="inner">
+      <div class="anniu"></div>
+    </div>
+<div class="gn">立体声</div>
+
+  </div>
+  <div class="progress">
+    <div class="inner">
+      <div class="anniu"></div>
+    </div>
+    <div class="gn">右声道</div>
+  </div>
+  <div class="progress">
+    <div class="inner">
+      <div class="anniu"></div>
+    </div>
+	<div class="gn">流行</div>
+  </div>
+  <div class="progress">
+    <div class="inner">
+      <div class="anniu"></div>
+    </div>
+   <div class="gn">古典</div>
+  </div>
+  <div class="progress">
+    <div class="inner">
+      <div class="anniu"></div>
+    </div>
+<div class="gn">摇滚</div>
+  </div>
+  <div class="progress">
+    <div class="inner">
+      <div class="anniu"></div>
+    </div>
+<div class="gn">金属</div>
+  </div>
+  <div class="progress">
+    <div class="inner">
+      <div class="anniu"></div>
+    </div>
+<div class="gn">电音</div>
+  </div>
+</div>
+
+</section>
+<div class="hx"></div>
+<div class="wz">自定义&nbsp&nbsp&nbsp</div>
+<div class="bz">
+  <div class="zr"></div>
+  <div class="yr"></div>
+</div>
+</body>
+<script>
+var progress=document.querySelector(".progress");
+	var inner=document.querySelector(".inner");
+	var anniu=document.querySelectorAll(".anniu");
+var pw=progress.offsetHeight;
+// for (var i = 0; i < anniu[i].length; i++) {
+//   anniu[i].index=i
+// };
+touch.on(anniu[i],'touchstart',function(e){
+
+       document.touchmove=function(e){
+        var jy=e.clientY-anniu.offsetTop-10;
+        
+        console.log(1)
+
+       var cy=e.clientY-jy;
+       if(cy<0){
+        cy=0
+       }
+       if(cy>pw){
+        cy=pw;
+       }
+       inner.style.height=cy+"px";
+          e.preventDefault();
+       }
+    })
+   
+    
+      
+     // document.touchend=function(){
+     //    document.touchmove=null;
+     // }
+</script>
+</html>

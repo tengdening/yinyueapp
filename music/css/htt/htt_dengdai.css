@@ -1,0 +1,189 @@
+.caiy{
+    width: 2.08rem;
+    height: 2.08rem;
+    border-radius: 50%;
+    position: absolute;
+    left: 2.56rem;
+    top: -0.5rem;
+    background: url("../../images/htt/caiyuan2.png") no-repeat center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.erdong{
+    display: flex;
+    display:-webkit-flex;
+    display: -webkit-box;
+    width: 4.76rem;
+    height: 0.91rem;
+    justify-content: center;
+    background: url("../../images/htt/loading.png") no-repeat center center;
+    background-size: 100%;
+    position: absolute;
+    top: 5.75rem;
+    z-index: 22222;
+    border-radius: 28px;
+}
+.fengche{
+    width: 0.58rem;
+    height: 0.58rem;
+    border-radius: 50%;
+    position: absolute;
+    left: 4.06rem;
+    top: 0.17rem;
+    background: url("../../images/htt/fengche.png") no-repeat center center;
+    background-size: 100%;
+}
+/*去注册开始*/
+.signup{
+    display: flex;
+    display:-webkit-flex;
+    display: -webkit-box;
+    width: 4.76rem;
+    height: 0.91rem;
+    justify-content: center;
+    background: url("../../images/htt/denglv.png") no-repeat center center;
+    background-size: 100%;
+    position: absolute;
+    top: 7rem;
+    left: 1.3rem;
+    z-index: 22222;
+    border-radius: 28px;
+    /*box-shadow: 1px 5px 16px 3px #E7D4C7;*/
+}
+.juyuan{
+    background: #FBB082;
+}
+.tiaoer{
+    background: #FFDFCB;
+}
+.edl{
+    width: 1.72rem!important;
+}
+.signup .edm h2{
+    color: #FFFFFF;
+}
+.signup .edm h3{
+    width: 1.24rem;
+    display: flex;
+    display:-webkit-flex;
+    display: -webkit-box;
+    color: #FFFFFF;
+    justify-content: space-between;
+}
+/*去注册结束*/
+/*底部开始*/
+.weibo{
+    width: 100%;
+    z-index:222222;
+    font-size: 10px;
+    color: #C8C3C5;
+    position: absolute;
+    top: 8.5rem;
+    left: 0;
+    text-align: center;
+    /*align-items: center;*/
+}
+.guanzhu{
+    width: 100%;
+    display: flex;
+    /*display:-webkit-flex;*/
+    /*display: -webkit-box;*/
+    position: absolute;
+    left: 0;
+    top: 9.5rem;
+    z-index:222222;
+    align-items: center;
+    margin-bottom: 0.8rem;
+}
+.guanzhu>*{
+    flex-grow: 1;
+}
+.xl{
+    flex-grow: 0;
+    width: 2.2rem;
+    display: flex;
+    /*display:-webkit-flex;*/
+    /*display: -webkit-box;*/
+    align-items: center;
+    justify-content: flex-start;
+}
+.xlcon{
+    width: 1.95rem;
+    height: 0.02rem;
+    background: #FFFFFF;
+}
+.xr{
+    display: flex;
+    align-items: center;
+    flex-grow: 0;
+    width: 2.2rem;
+    justify-content: flex-end;
+}
+.xrcon{
+    width: 1.95rem;
+    height: 0.02rem;
+    background: #FFFFFF;
+}
+.xm{
+    display: flex;
+    justify-content: space-between;
+}
+.xm a{
+    display: flex;
+    width: 0.52rem;
+    height: 0.52rem;
+    border-radius: 50%;
+    background: #B3A9AA;
+    text-align: center;
+    line-height: 0.52rem;
+}
+.xm a img{
+    display: block;;
+    width: 0.33rem;
+    height: 0.26rem;
+}
+.ww{
+    display: flex;
+    display:-webkit-flex;
+    display: -webkit-box;
+    width: 0.52rem;
+    height: 0.52rem;
+    border-radius: 50%;
+    background: #B3A9AA;
+    justify-content: center;
+    align-items: center;
+}
+.QQ{
+    display: flex;
+    display:-webkit-flex;
+    display: -webkit-box;
+    width: 0.52rem;
+    height: 0.52rem;
+    border-radius: 50%;
+    background: #B3A9AA;
+    justify-content: center;
+    align-items: center;
+}
+.QQ img{
+    display: flex;
+    display:-webkit-flex;
+    display: -webkit-box;
+    width: 0.25rem!important;
+    height: 0.26rem!important;
+    align-items: center;
+}
+.wbicon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wbicon img{
+    display: flex;
+    width: 0.28rem!important;
+    height: 0.28rem!important;
+    justify-content: center;
+    align-items: center;
+}
+/*底部结束*/

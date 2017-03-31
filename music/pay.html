@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>绑定银行卡</title>
+	<meta name = "viewport" content = "width = device-width, initial-scale = 1.0, maximum-scale = 1.0, user-scalable = 0"/>
+	<link rel="stylesheet" href="css/bass.css">
+	<link rel="stylesheet" href="css/tn/header1.css">
+	<link rel="stylesheet" href="css/ywscss/pay.css">
+	<script src="js/rem.js"></script>
+</head>
+<body>
+	<header class="tn-head">
+		<div class="tn-headbox">
+			<i class="tn-t1"></i>
+			<i class="tn-t2"></i>
+			<i class="tn-t3"></i>
+			<a href="" class="tn-left">
+				
+			</a>
+			<div class="tn-middle">
+				<span class="tn-middle-top">
+					绑<i class="tn-y1"></i>
+					定<i class="tn-y2"></i>
+					银<i class="tn-y3"></i>
+					行<i class="tn-y5"></i>
+					卡<i class="tn-y6"></i>
+				</span>
+				<span class="tn-xt1"></span>
+				<p><span>PAID</span> services</p>
+			</div>
+			<a>
+				
+			</a>
+		</div>
+		<div class="tn-db_bj2">
+		</div>
+		<div class="tn-db_bj">
+			付&nbsp;费&nbsp;服&nbsp;务
+		</div>
+	</header>
+	<section class="paybox">
+		<div class="cardbox">
+			<img src="images/yws/card.png" alt="">
+		</div>
+		<ul class="posbox">
+			<li class="bank">
+				<p>请绑定持卡人本人的银行卡</p>
+				<p class="please">Please bind the cardholder's bank card</p>
+			</li>
+			<li class="io">
+				<div class="img img1"></div>
+				<input type="text" placeholder="请输入持卡人姓名">
+			</li>
+			<li class="io">
+				<div class="img img2"></div>
+				<input type="text" placeholder="请输入您的卡号">
+			</li>
+			<li class="io">
+				<div class="img img3"></div>
+				<input type="text" placeholder="请输入您的开户预留手机号">
+			</li>
+			<li class="io">
+				<div class="img img4"></div>
+				<input type="text" placeholder="请输入验证码">
+			</li>
+			<li class="io">
+				<div class="img img5"></div>
+				<input type="text" placeholder="请选择卡片类型">
+			</li>
+			<li class="agree">  
+				<div class="btn"></div>
+				<p>同意《银联用户服务协议》</p>
+			</li>
+			<li class="bangka">
+				<a id="bang" href>绑定此银行卡</a>
+			</li>
+		</ul>
+	</section>
+</body>
+<script language="javascript" type="text/javascript">
+	var btn = document.querySelector(".btn");
+	var bang = document.querySelector("#bang");
+	var io = document.querySelectorAll(".io input");
+	var flag=true;
+	btn.onclick=function () {
+		if(flag){
+			this.style.backgroundColor="#1fe498";
+			bang.href="pay1.html";
+			return flag=false;
+		}else{
+			this.style.backgroundColor="";
+			bang.href="##";
+			return flag=true;
+		}
+	}
+	for (var i = 0; i < io.length; i++) {
+		io[i].index=i;
+		io[i].onclick=function(){
+			io[this.index].id="place";
+			io[this.index].style.color="#1fe498"
+		}
+		io[i].onblur=function(){
+			io[this.index].id="";
+			io[this.index].style.color="#666"
+		}
+	};
+</script>
+</html>

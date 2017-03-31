@@ -1,0 +1,479 @@
+@font-face {
+    font-family: 'iconfont';
+    src: url('../../zq-iconfont/iconfont.eot');
+    src: url('../../zq-iconfont/iconfont.eot?#iefix') format('embedded-opentype'),
+    url('../../zq-iconfont/iconfont.woff') format('woff'),
+    url('../../zq-iconfont/iconfont.ttf') format('truetype'),
+    url('../../zq-iconfont/iconfont.svg#iconfont') format('svg');
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+/*背景开始*/
+.bg-show{
+    width:100%;
+    height:71.29%;
+    background:  url(../../images/rzq/zq-audiobg1.png) no-repeat center center/cover;
+    /*position: fixed;*/
+    /*top:0;*/
+    /*left:0;*/
+}
+.bg-caozuo{
+    height: 28.72%;
+    display: flex;
+    align-items: stretch;
+    background: url(../../images/rzq/zq-audiobg2.png) no-repeat center center/cover;
+    width:100%;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    bottom:0;
+    left:0;
+}
+/*背景结束*/
+/*头部开始*/
+html,body{
+    font-size: 16px;
+    position: relative;
+}
+
+.tn-head{
+    width: 100%;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    height: 1.16rem;
+    /*background: #3f313e;*/
+    flex: none;
+    position: fixed;
+    top:0;
+    left:0;
+    z-index:99999999;
+}
+.tn-headbox{
+    width: 100%;
+    height: 100%;
+    border-top: 1px solid rgba(255,255,255,.5);
+    position: relative;
+    display: flex;
+    display: -webkit-flex;display: flex;
+    /*display: box;*/
+    align-items:center;
+    justify-content:space-between;
+}
+.tn-t1,.tn-t3{
+    width: 0.32rem;
+    height: 1px;
+    background: #fff;
+    position: absolute;
+    top: -1px;
+}
+.tn-t1{
+    left: 0.87rem;
+}
+.tn-t3{
+    right: 0.87rem;
+}
+.tn-t2{
+    width: 0.98rem;
+    height: 1px;
+    background: #fff;
+    position: absolute;
+    top: -1px;
+    left: 50%;
+    margin-left: -0.49rem;
+}
+.tn-headbox>a{
+    width: 0.62rem;
+    height: 0.62rem;
+}
+.tn-headbox>.tn-left{
+    background: url(../../images/rzq/tn-return_01.png)no-repeat center center/cover;
+}
+.tn-headbox>.zq-right{
+    background: url(../../images/rzq/zq-tab.png)no-repeat center center/cover;
+}
+.tn-headbox>div{
+    /*width:3.06rem;*/
+    /*height:auto;*/
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    color: #fff;
+}
+.tn-headbox>div>p{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tn-headbox>div>p:nth-child(1){
+    font-size: 20px;
+}
+.tn-headbox>div>p:nth-child(2){
+    width:3.06rem;
+    background: url(../../images/rzq/zq-xian.png)no-repeat center center/contain;
+    font-size: 12px;
+
+}
+/*头部结束*/
+/*任志琴自己的部分开始*/
+/*除去操作界面的部分*/
+.center-section{
+    position: relative;
+}
+.zhanwei{
+    height: 1.16rem;
+    width:100%;
+}
+.show-top{
+    position: fixed;
+    left:0;
+    top:0;
+    width:100%;
+    height:71.29%;
+    display: flex;
+    flex-direction: column;
+}
+.show-top>ul{
+    height:auto;
+    display: flex;
+    justify-content: space-between;
+    margin: 0.34rem auto 0;
+    display: flex;
+    flex:0 0 auto;
+}
+@media screen and (min-width: 380px){
+    .show-top>ul{
+        width:45.33333%;
+    }
+}
+@media screen and (max-width: 380px){
+    .show-top>ul{
+        width:170px;
+    }
+}
+.show-top>ul li{
+    height:18px;
+    float: left;
+    border: 2px solid #DF6166;
+    border-radius: 3px;
+    margin-right:0.16rem;
+    color:#DF6166;
+    font-size: 10px;
+    padding:0 4px;
+}
+.show-top>ul li:nth-last-child(1){
+    margin:0;
+}
+.show-top>ul li a{
+    padding:0;
+    margin:0;
+    color:#DF6166;
+    font-size: 10px;
+}
+.show-top>ul li.action{
+    color:#00DFD7;
+    border-color:#00DFD7;
+}
+.show-top  .top-bottom{
+    width:100%;
+    display: flex;
+    flex:1 0 auto;
+}
+/*swiper部分开始*/
+.swiper-container {
+    width: 100%;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: flex-end;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    align-items: center;
+    flex-direction: column;
+}
+/*第二屏开始*/
+.show-top  .top-bottom .show-mid{
+    height:90.98%;
+    width:100%;
+    position: relative;
+}
+.show-top  .top-bottom .show-mid .show-rec{
+    width:5.04rem;
+    height:5.04rem;
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin:auto;
+    /*transform: translateY(-0.7rem);*/
+    background: url(../../images/rzq/zq-recbg.png)no-repeat center center/cover;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+}
+.show-top  .top-bottom .show-mid .show-rec .rec-bg{
+    width:3.8rem;
+    height:3.8rem;
+    background: url("../../images/rzq/zq-recbg2.png")no-repeat center center/cover;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+    animation: rec 10s linear infinite;
+    -webkit-animation: rec 10s linear infinite;
+    -moz-animation: rec 10s linear infinite;
+    animation-play-state: paused;
+}
+.show-top  .top-bottom .show-mid .show-rec .rec-bg.action{
+    animation-play-state: running;
+}
+@keyframes rec {
+    100%{
+        transform: rotate3d(0,0,1,360deg);
+    }
+}
+@-webkit-keyframes rec {
+    100%{
+        transform: rotate3d(0,0,1,360deg);
+    }
+}
+.show-top  .top-bottom .show-mid .show-rec .rec-bg .rec-bg-tou{
+    width:2.82rem;
+    height: 2.82rem;
+    background: url("../../images/rzq/zq-touxiang.png")no-repeat center center/cover;
+}
+/*第二屏结束*/
+/*第一屏开始*/
+.zq-songerxiang{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+    .zq-songerbox{
+        width:100%;
+        height:auto;
+        padding:0.18rem;
+    }
+    .zq-songerbox li{
+        width:100%;
+        height:0.96rem;
+        border-bottom:1px solid #736D7A;
+
+    }
+.zq-songerbox li a{
+    width:100%;
+    height:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.zq-songerbox li a img{
+    height:0.42rem;
+}
+.zq-songerbox li a p{
+    flex: 1 0 auto;
+    color:#FFF;
+    display: flex;
+    justify-content: flex-start;
+}
+.zq-songerbox li .songertou{
+    height:0.6rem;
+    width:0.6rem;
+    border:2px solid #777;
+    border-radius: 50%;
+    background: url("../../images/rzq/zq-songer.png")no-repeat center center/cover;
+    margin-right:0.34rem;
+}
+.zq-songerbox li:nth-child(2) .songertou{
+    background: url("../../images/rzq/zq-songer2.png")no-repeat center center/cover;
+}
+.zq-songerbox li:nth-child(1){
+    border-top:1px solid #736D7A;
+}
+.zq-songerdan{
+    height:0.6rem;
+    width:0.6rem;
+    margin-right:0.34rem;
+    font-size: 24px;
+    color:#fff;
+    text-align: center;
+    line-height:0.6rem ;
+}
+/*第一屏结束*/
+
+/*这里是第三屏放小话筒的*/
+.show-top  .top-bottom .geci{
+    width:100%;
+    height:0.72rem;
+}
+/*第三屏开始*/
+
+/*第三屏结束*/
+/*轮播点开始*/
+span.swiper-pagination-bullet{
+    background: rgba(224,104,106,1);
+}
+.swiper-pagination-bullet{
+    opacity:1;
+}
+.swiper-pagination-bullet-active{
+    width:0.4rem;
+    background: #fff !important;
+    border-radius: 4px;
+}
+/*轮播点结束*/
+/*操作部分*/
+.caozuo-bot{
+    width:100%;
+    height: 28.72%;
+    position: fixed;
+    bottom:0;
+    left:0;
+    z-index: 999;
+}
+.caozuo-bot ul{
+    height: 29.32%;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+.caozuo-bot li{
+    font-size:25px;
+    color: #fff;
+    float: left;
+}
+.zq-bar-box{
+    width:100%;
+    padding: 0 0.28rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.zq-bar-box span{
+    font-size:16px;
+    color:#FFF;
+}
+.zq-bar-box .zq-bar{
+    width:5rem;
+    height:4px;
+    background: #fff;
+    position: relative;
+}
+.zq-bar-box .zq-bar-yi{
+    width:0%;
+    height:100%;
+    background: #E0686A;
+    position: relative;
+}
+.zq-bar-box .zq-bar-qiu{
+    width:0.14rem;
+    height:0.14rem;
+    background: #E7445E;
+    border-radius: 50%;
+    box-shadow: 0 0 4px 4px rgba(231,68,94,1);
+    position: absolute;
+    top:-0.07rem;
+    right:-0.07rem;
+}
+/*播放按钮一系列*/
+.zq-bo-box{
+    width:100%;
+    height:auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 0.52rem;
+    margin-top:0.32rem;
+}
+.zq-bo-box .zq-xunhuan{
+    width:0.4rem;
+    height:0.34rem;
+    position:relative;
+    top:-2px;
+}
+.zq-bo-box .zq-xunhuan>li{
+    position: absolute;
+    top:0;
+    right:0;
+    display: none;
+}
+.zq-bo-box .zq-xunhuan>li:nth-child(1){
+    font-size: 20px;
+}
+.zq-bo-box .zq-xunhuan>li.active{
+    display: block;
+    z-index: 999999;
+}
+.zq-bo-box .zq-pre,.zq-bo-box .zq-next{
+    width:0.54rem;
+    height: 0.54rem;
+    background: #FFF;
+    text-align: center;
+    line-height: 0.56rem;
+    border-radius: 50%;
+    color:#FF295D;
+}
+.zq-bo-box .zq-bo{
+    width:1.2rem;
+    height:1.2rem;
+    /*background: #FFF;*/
+    /*text-align: center;*/
+    /*line-height: 1.24rem;*/
+    border-radius: 50%;
+    /*color:#FF295D;*/
+    /*font-size: 26px;*/
+    position: relative;
+}
+.zq-bo-box .zq-bo>li{
+    width:1.2rem;
+    height:1.2rem;
+    background: #FFF;
+    text-align: center;
+    line-height: 1.24rem;
+    border-radius: 50%;
+    color:#FF295D;
+    font-size: 26px;
+    position: absolute;
+    top:0;
+    left:0;
+    display: none;
+}
+.zq-bo-box .zq-bo>li#action{
+    display: block;
+    z-index: 99999;
+}
+.zq-bo-box .zq-list{
+    font-size: 28px;
+    color:#FFF;
+}
+/*任志琴自己的部分结束*/
+/*歌词部分*/
+.zq-page3-geci .geci{
+    display: flex;
+    padding: 0 0.26rem;
+    justify-content:space-between ;
+    align-items: center;
+}
+.zq-page3-geci .geci>.iconfont{
+    font-size: 0.46rem;
+    color:#A29AA8;
+}
+

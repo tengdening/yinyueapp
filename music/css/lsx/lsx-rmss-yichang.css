@@ -1,0 +1,42 @@
+.center-section{
+    background: -webkit-linear-gradient(#937263,#40323E);
+    padding:0 0.2rem;
+}
+
+.xian{
+    width:7.02rem;
+    height:1px;
+    background: url("../../images/lsx/xian2.png")no-repeat 100% 100%/cover;
+    margin: 0.1rem auto 0;
+}
+.yichang-box{
+    width:3.57rem;
+    height:3.25rem;
+    font-size: 0;
+    margin:2.5rem auto 0;
+}
+.yichang-box img{
+    width:100%;
+    height:100%;
+}
+.local{
+    display: block;
+    width:3.76rem;
+    height:0.72rem;
+    font-size: 0;
+    margin:0.8rem auto 0;
+}
+.local img{
+    width:100%;
+    height:100%;
+}
+ .xian-bot {
+    width: 7.02rem;
+    height: 1px;
+    font-size: 0;
+    margin-top: 2rem;
+}
+.xian-bot img{
+    width:100%;
+    height:100%;
+}

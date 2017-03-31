@@ -1,0 +1,73 @@
+body{
+	background: url(../../images/zyh/zyh_bj.png)no-repeat center center/cover;
+}
+.zyh_dq{
+	width: 100%;
+	height: auto;
+}
+.zyh_dq ul{
+	width: 100%;
+	height: 100%;
+}
+.zyh_dq ul .lis{
+	width: 100%;
+	height: 0.8rem;
+	padding: 0 0.24rem 0 0.24rem;
+	vertical-align: middle;
+}
+.zyh_dq ul .li {
+	background: #fff;
+}
+.zyh_dq ul .li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.zyh_dq ul .lis img{
+	float: left;
+	width: 5%;
+	margin-top: 0.15rem;
+	margin-right: 0.1rem;
+}
+.zyh_dq ul .lis p{
+	font-size: 12px;
+	color: #fff;
+	line-height: 0.8rem;
+	float: left;
+}
+.zyh_dq ul .lis .ps{
+	float: right;
+}
+.zyh_dq ul .li p{
+	font-size: 14px;
+	color: #979797;
+}
+.zyh_xz{
+	width: 100%;
+	height: auto;
+	margin-top: 0.2rem;
+}
+.zyh_xz ul{
+	width: 100%;
+	height: 100%;
+	background: #fff;
+	padding: 0 0.24rem 0 0.24rem;
+}
+.zyh_xz ul li{
+	width: 100%;
+	height: 0.87rem;
+	border-bottom: 2px solid #DADADA;
+}
+.zyh_xz ul li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.zyh_xz ul li a p{
+	font-size: 14px;
+	color: #B4B4B4;
+	line-height: 0.87rem;
+}
+.zyh_xz ul li:last-child{
+	border: none;
+}

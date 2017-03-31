@@ -1,0 +1,145 @@
+body {
+  background: url(../../images/lc/background2.png) no-repeat 0 0 / cover;
+}
+.tn-head {
+  width: 100%;
+  padding: 0 0.25rem;
+  height: .88rem;
+}
+.tn-head .tn-headbox {
+  width: 100%;
+  height: 100%;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.tn-head .tn-headbox .tn-t1,
+.tn-head .tn-headbox .tn-t3 {
+  width: 0.32rem;
+  height: 1px;
+  background: #fff;
+  position: absolute;
+  top: -1px;
+}
+.tn-head .tn-headbox .tn-t1 {
+  left: 0.87rem;
+}
+.tn-head .tn-headbox .tn-t3 {
+  right: 0.87rem;
+}
+.tn-head .tn-headbox .tn-t2 {
+  width: 0.98rem;
+  height: 1px;
+  background: #fff;
+  position: absolute;
+  top: -1px;
+  left: 50%;
+  margin-left: -0.49rem;
+}
+.tn-head .tn-headbox a {
+  font-size: 18px;
+  font-weight: bold;
+  color: #DDDDDD;
+}
+.center .jindubox {
+  width: 4rem;
+  margin: 0 auto;
+}
+.center .jindubox img {
+  display: block;
+  margin: 0 auto;
+  width: 3.72rem;
+  height: .57rem;
+}
+.center .jindubox .zi {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: .05rem;
+}
+.center .jindubox .zi span {
+  font-size: 12px;
+  color: #FFFFFF;
+}
+.center .touxiangbox {
+  width: 7.5rem;
+  height: 7.09rem;
+  background: url(../../images/lc/ljtx1.png) no-repeat 0 0 / cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: .78rem;
+}
+.center .touxiangbox .touxiang {
+  width: 4.64rem;
+  height: 4.67rem;
+}
+.center .xuanzebox {
+  width: 100%;
+  height: .74rem;
+  display: flex;
+  padding: 0 1.82rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.center .xuanzebox .xuanze {
+  display: flex;
+  align-items: center;
+}
+.center .xuanzebox .xuanze .dian {
+  width: .11rem;
+  height: .11rem;
+  border-radius: 50%;
+  background: #939393;
+  margin-right: .05rem;
+}
+.center .xuanzebox .xuanze .xuan {
+  font-size: 10px;
+  color: #939393;
+}
+.center .xuanzebox .active .dian {
+  background: #ED5C60;
+}
+.center .xuanzebox .active .xuan {
+  color: #ED5C60;
+}
+.center .zhuangtaibox {
+  width: 100%;
+  height: 1.45rem;
+  display: flex;
+  justify-content: space-between;
+}
+.center .zhuangtaibox .zhuangtai {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.center .zhuangtaibox .zhuangtai img {
+  width: 1.06rem;
+  height: 1.06rem;
+}
+.center .zhuangtaibox .zhuangtai span {
+  font-size: 10px;
+  color: #F0F0F0;
+}
+.center .bottom {
+  width: 100%;
+  height: .62rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 .25rem;
+  margin-top: .2rem;
+}
+.center .bottom a {
+  width: .62rem;
+  height: .62rem;
+  font-size: 0;
+}
+.center .bottom a img {
+  width: .62rem;
+  height: .62rem;
+}

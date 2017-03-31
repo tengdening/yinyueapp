@@ -1,0 +1,266 @@
+﻿html,
+body {
+  font-size: 16px;
+}
+body {
+  background: -webkit-linear-gradient(#937263, #40323e);
+}
+.tn-head {
+  width: 100%;
+  padding: 0 0.24rem;
+  height: 1.16rem;
+}
+.tn-head .tn-headbox {
+  width: 100%;
+  height: 100%;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  position: relative;
+  z-index: 99999;
+  display: flex;
+  display: -webkit-flex;
+  display: box;
+  align-items: center;
+  justify-content: space-between;
+}
+.tn-head .tn-headbox .tn-t1,
+.tn-head .tn-headbox .tn-t3 {
+  width: 0.32rem;
+  height: 1px;
+  background: #fff;
+  position: absolute;
+  top: -1px;
+}
+.tn-head .tn-headbox .tn-t1 {
+  left: 0.87rem;
+}
+.tn-head .tn-headbox .tn-t3 {
+  right: 0.87rem;
+}
+.tn-head .tn-headbox .tn-t2 {
+  width: 0.98rem;
+  height: 1px;
+  background: #fff;
+  position: absolute;
+  top: -1px;
+  left: 50%;
+  margin-left: -0.49rem;
+}
+.tn-headbox > a {
+  width: 0.62rem;
+  height: 0.62rem;
+}
+.tn-headbox > .tn-left {
+  background: url(../../images/tn/tn-return_01.png) no-repeat center center / cover;
+}
+.tn-headbox > .tn-right {
+  background: url(../../images/tn/tn-gengduo_03.png) no-repeat center center / cover;
+}
+.tn-headbox > span {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+}
+.center-section {
+  position: relative;
+  z-index: 10;
+  padding: 2.1rem .25rem 0;
+}
+.center-section h2 {
+  font-size: 22px;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+}
+.center-section .zan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: .12rem;
+}
+.center-section .zan a,
+.center-section .zan div {
+  font-size: 12px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+.center-section .zan a img,
+.center-section .zan div img {
+  width: .24rem;
+}
+.center-section .zan a:nth-child(1) img,
+.center-section .zan div:nth-child(1) img {
+  margin-right: .08rem;
+}
+.center-section .zan a:nth-child(2),
+.center-section .zan div:nth-child(2) {
+  margin: 0 .35rem;
+  font-size: 10px;
+}
+.center-section .zan a:nth-child(3) span,
+.center-section .zan div:nth-child(3) span {
+  margin-right: .08rem;
+}
+.center-section .message {
+  background: #fff;
+  margin-top: .23rem;
+  border-radius: .16rem;
+  font-size: 0;
+}
+.center-section .message .title_box {
+  text-align: center;
+}
+.center-section .message .title_box .title {
+  width: 2.4rem;
+  height: .95rem;
+}
+.center-section .message .line {
+  width: 7.02rem;
+  height: 1px;
+  margin: .14rem 0 .2rem 0;
+}
+.center-section .message .overmore {
+  font-size: 14px;
+  color: #353535;
+  padding: 0 .3rem;
+  line-height: 180%;
+  -webkit-line-clamp: 7;
+}
+.center-section .message .all {
+  padding: 0 .3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: .3rem 0 .12rem 0;
+  font-size: 10px;
+  color: #23DFDA;
+}
+.center-section .message .all .jt {
+  width: .2rem;
+  height: .21rem;
+}
+.center-section .message .all .line2 {
+  width: 2.27rem;
+  height: .03rem;
+}
+.center-section .message .dongtai {
+  height: 1.2rem;
+  padding: 0 .3rem;
+  position: relative;
+  margin-top: .15rem;
+}
+.center-section .message .dongtai img {
+  height: 1.2rem;
+  border-radius: .2rem;
+}
+.center-section .message .dongtai a {
+  display: block;
+  width: 5.4rem;
+  height: 1.2rem;
+  border: 1px solid #9C9C9C;
+  background: #fff;
+  position: absolute;
+  right: .3rem;
+  top: 0;
+  border-radius: .2rem;
+  box-shadow: 0 0 0.03rem 0.03rem rgba(0, 0, 0, 0.2);
+  padding: .2rem .32rem 0 .45rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.center-section .message .dongtai a .left h3 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333333;
+}
+.center-section .message .dongtai a .left p {
+  font-size: 12px;
+  margin-top: .16rem;
+  color: #5F5F5F;
+}
+.center-section .message .dongtai a .right {
+  width: .14rem;
+  height: .14rem;
+  background: #ea434b;
+  border-radius: 50%;
+}
+.center-section .message .albums {
+  padding: 0 .3rem;
+  margin-top: .34rem;
+  display: flex;
+  justify-content: space-between;
+}
+.center-section .message .albums .album {
+  width: 1.71rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.center-section .message .albums .album img {
+  width: 1.71rem;
+  height: 1.71rem;
+  margin-bottom: .05rem;
+  box-shadow: 0.05rem 0.05rem 0.03rem 0.03rem rgba(0, 0, 0, 0.2);
+}
+.center-section .message .albums .album span {
+  font-size: 10px;
+  color: #666565;
+  width: 40%;
+  float: left;
+}
+.center-section .message .albums .album span:nth-child(3) {
+  width: 60%;
+  color: #1BB7FF;
+}
+.tn-foot {
+  height: 1.7rem;
+  width: 100%;
+  background: #433440;
+  box-sizing: border-box;
+  padding: 0 0.24rem;
+}
+.tn-foot .tn-foot-box {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.tn-foot-box > a {
+  width: 0.89rem;
+  height: 0.89rem;
+}
+.tn-foot-box > a:nth-child(1) {
+  background: url(../../images/tn/tn_03.png) no-repeat center center / cover;
+}
+.tn-foot-box > a:nth-child(3) {
+  background: url(../../images/tn/tn_06.png) no-repeat center center / cover;
+}
+.tn-foot-box > a:last-child {
+  background: url(../../images/tn/tn_08.png) no-repeat center center / cover;
+}
+.tn-foot-box > p > span {
+  display: flex;
+  flex-direction: column;
+}
+.tn-foot-box > p > span:nth-child(1) {
+  font-size: 16px;
+  color: #fff;
+  font-weight: 400;
+}
+.tn-foot-box > p > span:last-child {
+  font-size: 12px;
+  color: #23dfda;
+}
+.guding {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5.84rem;
+}
+.guding img {
+  width: 100%;
+  height: 100%;
+}

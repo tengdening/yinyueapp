@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=0">
+    <meta name="renderer" content="webkit"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+    <script src="music/js/rem.js"></script>
+    <link rel="stylesheet" href="music/css/bass.css">
+    <link rel="stylesheet" href="music/css/htt/htt_shanpin.css">
+    <link rel="stylesheet" href="music/css/swiper.min.css">
+
+    <style>
+        html, body {
+            position: relative;
+            height: 100%;
+        }
+        body {
+            background: #eee;
+            font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            color:#000;
+            margin: 0;
+            padding: 0;
+        }
+        .swiper-container {
+            width: 100%;
+            height: 100%;
+        }
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+
+            /* Center slide text vertically */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <!--<div class="spbox">-->
+        <!--<ul class="spcon">-->
+            <!--<li class="shanp">-->
+                <!--<img src="music/images/htt/htt_sp1.png" alt="">-->
+            <!--</li>-->
+            <!--<li class="shanp">-->
+                <!--<img src="music/images/htt/htt_sp2.png" alt="">-->
+            <!--</li>-->
+            <!--<li class="shanp">-->
+                <!--<img src="music/images/htt/htt_sp3.png" alt="">-->
+            <!--</li>-->
+        <!--</ul>-->
+    <!--</div>-->
+    <!--<ul class="btnbox">-->
+        <!--<li class="btn"></li>-->
+        <!--<li class="btn tebtn"></li>-->
+        <!--<li class="btn"></li>-->
+    <!--</ul>-->
+
+    <div class="swiper-container spbox">
+        <div class="swiper-wrapper spcon">
+            <div class="swiper-slide shanp">
+                <img src="music/images/htt/htt_sp1.png" alt="">
+            </div>
+            <div class="swiper-slide shanp">
+                <img src="music/images/htt/htt_sp2.png" alt="">
+            </div>
+            <a href="music/htt_zhuce.html" class="swiper-slide shanp">
+                <img src="music/images/htt/htt_sp3.png" alt="">
+            </a>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination btnbox"></div>
+    </div>
+    <script src="music/js/swiper.min.js"></script>
+    <script src="music/js/htt/htt.js"></script>
+</body>
+</html>

@@ -1,0 +1,156 @@
+body{
+	background:url(../../images/lc/background2.png) no-repeat 0 0/cover;
+}
+// 头部
+.tn-head{
+	width: 100%;
+	padding: 0 0.25rem;
+	height: .88rem;
+	.tn-headbox{
+		width: 100%;
+		height: 100%;
+		border-top: 1px solid rgba(255,255,255,.5);
+		position: relative;
+		display: flex;
+		align-items:center;
+		justify-content:space-between;
+		.tn-t1,.tn-t3{
+			width: 0.32rem;
+			height: 1px;
+			background: #fff;
+			position: absolute;
+			top: -1px;
+		}
+		.tn-t1{
+			left: 0.87rem;
+		}
+		.tn-t3{
+			right: 0.87rem;
+		}
+		.tn-t2{
+			width: 0.98rem;
+			height: 1px;
+			background: #fff;
+			position: absolute;
+			top: -1px;
+			left: 50%;
+			margin-left: -0.49rem;
+		}
+		a{
+			font-size: 18px;
+			font-weight:bold;
+			color:#DDDDDD;
+		}
+	}
+}
+
+// 主体部分
+.center{
+	// 进度信息
+	.jindubox{
+		width:4rem;
+		margin:0 auto;
+		img{
+			display:block;
+			margin: 0 auto;
+			width:3.72rem;
+			height:.57rem;
+		}
+		.zi{
+			width:100%;
+			display:flex;
+			justify-content:space-between;
+			margin-top: .05rem;
+			span{
+				font-size: 12px;
+				color:#FFFFFF;
+			}
+		}	
+	}
+	// 滤镜展示框
+	.touxiangbox{
+		width:7.5rem;
+		height:7.09rem;
+		background:url(../../images/lc/ljtx1.png) no-repeat 0 0/cover;
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		margin-top:.78rem;
+		.touxiang{
+			width:4.64rem;
+			height:4.67rem;
+		}
+	}
+	// 选择框
+	.xuanzebox{
+		width: 100%;
+		height:.74rem;
+		display:flex;
+		padding: 0 1.82rem;
+		justify-content:space-between;
+		align-items:center;
+		.xuanze{
+			display:flex;
+			align-items:center;
+			.dian{
+				width:.11rem;
+				height:.11rem;
+				border-radius: 50%;
+				background:#939393;
+				margin-right: .05rem;
+			}
+			.xuan{
+				font-size:10px;
+				color:#939393;
+			}
+		}
+		.active{
+			.dian{
+				background:#ED5C60;
+			}
+			.xuan{
+				color:#ED5C60;
+			}
+		}
+	}
+	// 状态
+	.zhuangtaibox{
+		width:100%;
+		height:1.45rem;
+		display:flex;
+		justify-content:space-between;
+		.zhuangtai{
+			display:flex;
+			flex-direction:column;
+			justify-content:space-between;
+			align-items:center;
+			img{
+				width:1.06rem;
+				height:1.06rem;
+			}
+			span{
+				font-size:10px;
+				color:#F0F0F0;
+			}
+		}
+	}
+	//底部
+	.bottom{
+		width:100%;
+		height:.62rem;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 0 .25rem;
+		margin-top: .2rem;
+		a{
+			width:.62rem;
+			height:.62rem;
+			font-size: 0;
+			img{
+				width: .62rem;
+				height: .62rem;
+			}
+		}
+	}
+}

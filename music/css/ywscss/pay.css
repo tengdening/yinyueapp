@@ -1,0 +1,158 @@
+body{
+	background: url(../../images/yws/background.png)no-repeat center center/cover;
+}
+.paybox{
+	width:100%;
+	height:11.4rem;
+}
+.paybox .cardbox{
+	width:5.8rem;
+	height:3.6rem;
+	box-shadow: 0 0 10px 5px #d38047;
+	-webkit-box-shadow: 0 0 10px 5px #d38047;
+	-webkit-border-radius: 0.2rem;
+	border-radius: 0.2rem;
+	position: absolute;
+	left:50%;
+	-webkit-transform:translateX(-50%);
+	transform:translateX(-50%);
+	margin:0.21rem auto;
+}
+.paybox .cardbox img{
+	width:100%;
+}
+.posbox{
+	width: 100%;
+	height:9rem;
+	background: #fff;
+	position: absolute;
+	bottom:0;
+	display: flex;
+	flex-direction:column;
+	align-items:center:
+	justify-content:center;
+	padding: 0.25rem;
+	overflow: hidden;
+}
+.posbox .bank{
+	height:1.9rem;
+	width:100%;
+	padding: 0.5rem 0;
+}
+.posbox .bank p{
+	font-size: 0.26rem;
+	color:#424242;
+}
+.posbox .bank .please{
+	font-size: 0.16rem;
+}
+.posbox .io{
+	width:100%;
+	height:0.85rem;
+	border-bottom: 1px solid #b5b5b5;
+	display: flex;
+	align-items:center;
+}
+.posbox .io .img{
+	width:0.36rem;
+	height:0.36rem;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+}
+.posbox .io .img1{
+	background: url(../../images/yws/people.png)no-repeat center center/cover;
+}
+.posbox .io .img2{
+	background: url(../../images/yws/cards.png)no-repeat center center/cover;
+}
+.posbox .io .img3{
+	background: url(../../images/yws/phone.png)no-repeat center center/cover;
+}
+.posbox .io .img4{
+	background: url(../../images/yws/number.png)no-repeat center center/cover;
+}
+.posbox .io .img5{
+	background: url(../../images/yws/money.png)no-repeat center center/cover;
+}
+.posbox .io input{
+	height:0.36rem;
+	width:80%;
+	padding-left:0.1rem;
+	border:none;
+	color:blue;
+}
+.posbox .io #place:-ms-input-placeholder{
+    color: #1fe498;
+}
+.posbox .io #place::-webkit-input-placeholder{
+    color: #1fe498;
+}
+.posbox .agree{
+	width:100%;
+	height:1.7rem;
+	padding: 0.3rem 0;
+	display: flex;
+	align-items:flex-start;
+	color:#424242;
+}
+.posbox .agree .btn{
+	border:1px solid #a0a0a0;
+	width:0.36rem;
+	height:0.36rem;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	background-clip: content-box;
+	padding: 0.1rem;
+	background-color: #444;
+}
+.posbox .agree p{
+	padding-left:0.1rem;
+	font-size: 0.17rem;
+}
+.posbox .bangka{
+	width:100%;
+	height:0.88rem;
+	background:#ee6061;
+	border-radius: 0.44rem;
+	-webkit-border-radius: 0.44rem;
+	text-align: center;
+	line-height: 0.88rem;
+}
+.posbox .bangka a{
+	display: block;
+	width:100%;
+	height:0.88rem;
+	color:#fff;
+}
+
+/*手势*/
+.paybox .shoushi{
+	width:100%;
+}
+/*脸部识别*/
+.paybox .face{
+	width:100%;
+}
+/*指纹*/
+.paybox .zhiwen{
+	width:100%;
+}
+/*支付成功*/
+.paybox .succes{
+	width:100%;
+}
+#paybox .abox{
+	width:4.4rem;
+	height:0.88rem;
+	position: absolute;
+	right:50%;bottom:1.9rem;
+	transform: translateX(50%);
+	-webkit-transform: translateX(50%);
+}
+#paybox .abox a{
+	float: left;
+	width:50%;
+	height:100%;
+	border-radius: 2.2rem;
+	-webkit-border-radius: 2.2rem;
+}

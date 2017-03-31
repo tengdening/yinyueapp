@@ -1,0 +1,120 @@
+body {
+  background: url(../../images/lc/background.png) no-repeat 0 0 / cover;
+}
+.tn-head {
+  width: 100%;
+  padding: 0 0.25rem;
+  height: .88rem;
+}
+.tn-head .tn-headbox {
+  width: 100%;
+  height: 100%;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.tn-head .tn-headbox .tn-t1,
+.tn-head .tn-headbox .tn-t3 {
+  width: 0.32rem;
+  height: 1px;
+  background: #fff;
+  position: absolute;
+  top: -1px;
+}
+.tn-head .tn-headbox .tn-t1 {
+  left: 0.87rem;
+}
+.tn-head .tn-headbox .tn-t3 {
+  right: 0.87rem;
+}
+.tn-head .tn-headbox .tn-t2 {
+  width: 0.98rem;
+  height: 1px;
+  background: #fff;
+  position: absolute;
+  top: -1px;
+  left: 50%;
+  margin-left: -0.49rem;
+}
+.tn-head .tn-headbox a {
+  font-size: 18px;
+  font-weight: bold;
+  color: #DDDDDD;
+}
+.center {
+  padding: 0 .21rem;
+}
+.center .jindubox {
+  width: 4rem;
+  margin: 0 auto;
+}
+.center .jindubox img {
+  display: block;
+  margin: 0 auto;
+  width: 3.72rem;
+  height: .57rem;
+}
+.center .jindubox .zi {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: .05rem;
+}
+.center .jindubox .zi span {
+  font-size: 12px;
+  color: #FFFFFF;
+}
+.center .tuijianbox {
+  width: 100%;
+  height: auto;
+  background: #FFFFFF;
+  border-radius: .15rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 .46rem .7rem .42rem;
+  margin-top: .34rem;
+  position: relative;
+}
+.center .tuijianbox .topbox {
+  width: 100%;
+  margin: .27rem 0 .44rem 0;
+}
+.center .tuijianbox .topbox img {
+  display: block;
+  width: 3.15rem;
+  height: .51rem;
+  margin: 0 auto;
+}
+.center .tuijianbox img {
+  width: 1.8rem;
+  height: 1.89rem;
+  margin-bottom: .31rem;
+}
+.center .tuijianbox p {
+  font-size: 12px;
+  color: #6B6B6B;
+  width: 100%;
+  text-align: center;
+}
+.center .tuijianbox span {
+  font-size: 12px;
+  font-weight: bold;
+  color: #3CE6E0;
+  width: 100%;
+  text-align: center;
+}
+.center .tuijianbox a {
+  width: 100%;
+  text-align: center;
+  font-size: 0;
+  position: absolute;
+  bottom: -0.8rem;
+  left: 0;
+}
+.center .tuijianbox a #ok {
+  width: 4.79rem;
+  height: .9rem;
+}

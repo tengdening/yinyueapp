@@ -1,0 +1,490 @@
+body,input,form,p,pre,h1,h2,h3,h4,h5,h6{
+    margin:0;
+    padding:0;
+    font-size: 24px;
+}
+ul,li,ol,dl,dt,dd{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    -webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+input[type="button"],button,a{
+    -webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+img{
+    border: 0;
+}
+body{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    -webkit-user-select:none;
+    background: #735955;
+}
+input,textarea{
+    outline: none;
+}
+
+.qqg-section{
+
+    background: url("../../images/qqg-images/qqg-bj.png") no-repeat;
+    background-size:100% 100%;
+}
+.qqg-header{
+    width:100%;
+    height:2.65rem;
+
+    margin: auto;
+}
+/*.qqg-head1{*/
+    /*width:auto;*/
+    /*float: left;*/
+    /*font-size: 0.24rem;*/
+    /*color: #00DFD7;*/
+    /*margin-left: 0.45rem;*/
+    /*margin-top: 0.42rem;*/
+/*}*/
+/*.qqg-head1 img{*/
+    /*width:0.26rem;*/
+    /*height:0.26rem;*/
+/*}*/
+/*.qqg-head2{*/
+    /*width:1.22rem;*/
+    /*height:1.22rem;*/
+    /*margin-top: 0.2rem;*/
+    /*margin-left:1.42rem;*/
+    /*float: left;*/
+/*}*/
+/*.qqg-head2 img{*/
+    /*width:1.22rem;*/
+    /*height:1.22rem;*/
+/*}*/
+/*.qqg-head3{*/
+    /*margin-top: 0.55rem;*/
+
+    /*float: left;*/
+/*}*/
+/*.qqg-head3 p:nth-child(1){*/
+    /*font-size:0.15rem ;*/
+    /*color: #fff;*/
+/*}*/
+/*.qqg-head3 p:nth-child(2){*/
+    /*font-size:0.24rem ;*/
+    /*color: #fff;*/
+/*}*/
+.qqg-header1{
+    width:100%;
+    height:1.54rem;
+
+}
+.qqg-header1 img{
+    width:100%;
+    height:1.56rem;
+
+}
+.qqg-header2{
+    width:4rem;
+    height:0.5rem;
+    margin-left: 0.45rem;
+    line-height: 0.5rem;
+    float: left;
+}
+.qqg-header2 img{
+    width:0.3rem;
+    height:0.3rem;
+
+}
+.qqg-header2 span{
+    font-size: 0.24rem;
+    color: #fff;
+}
+.qqg-header3{
+    width:4rem;
+    height:0.5rem;
+margin-left: 0.45rem;
+    line-height: 0.5rem;
+    float: left;
+}
+.qqg-header3 img{
+    width:0.3rem;
+    height:0.3rem;
+
+}
+.qqg-header3 span:nth-child(2){
+    font-size: 0.24rem;
+    color: #DE6969;
+}
+.qqg-header3 span:nth-child(3){
+    font-size: 0.24rem;
+    color: #fff;
+}
+.qqg-header4{
+    width:1.5rem;
+    height:0.97rem;
+    /*background: red;*/
+    float: right;
+    text-align: center;
+margin-right: 0.5rem;
+    margin-top: 0.2rem;
+}
+.qqg-r4 {
+    margin: auto;
+    width:0.49rem;
+    height:0.49rem;
+}
+
+.qqg-r4 img{
+    width:0.49rem;
+    height:0.49rem;
+}
+.qqg-r41{
+    width:100%;
+    height:0.3rem;
+    margin-top: 0.1rem;
+    text-align: center;
+    line-height: 0.3rem;
+}
+.qqg-r41 span{
+    font-size: 0.27rem;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.qqg-she{
+    width:7.02rem;
+    height:auto;
+   /*border: 1px solid #000;*/
+    margin: auto;
+}
+.qqg-she a{
+    display: block;
+    width:7.02rem;
+    height:1.05rem;
+    margin-top: 0.2rem;
+    background: #fff;
+    border-radius: 0.2rem;
+}
+.qqg-ren{
+    margin-left: 0.2rem;
+    float: left;
+    line-height: 1.05rem;
+    width: 0.38rem;
+    height:0.4rem;
+}
+.qqg-ren img{
+    width:0.4rem;
+    height:0.38rem;
+}
+.qqg-ren2{
+    float: left;
+    margin-left: 0.15rem;
+    font-size: 0.32rem;
+    color: #000;
+    line-height: 1.05rem;
+}
+.qqg-ren3{
+    margin-right: 0.15rem;
+    float: right;
+    margin-top: 0.25rem;
+    /*line-height: 1.05rem;*/
+    width:0.35rem;
+    height:0.45rem;
+}
+.qqg-ren3 img{
+    width:0.35rem;
+    height:0.5rem;
+}
+
+.qqg-tui1{
+    width:7.02rem;
+    height:1.35rem;
+    margin: auto;
+    position: relative;
+}
+.qqg-tui1-zi{
+    font-size: 0.52rem;
+    color: #fff;
+    opacity: 0.3;
+    position: absolute;
+    left:0.1rem;
+    top:0;
+}
+.qqg-tui1-zi2{
+    font-size: 0.32rem;
+    color: #fff;
+
+    position: absolute;
+    left: 0.1rem;
+    top:0.25rem;
+}
+.qqg-tui1 li:nth-child(1){
+    width:0.05rem;
+    height:0.05rem;
+    border-radius: 50%;
+    background: #0BE0D8;
+    position: absolute;
+    left: 0.45rem;
+    top:0.5rem;
+}
+.qqg-tui1 li:nth-child(2){
+    width:0.05rem;
+    height:0.05rem;
+    border-radius: 50%;
+    background: #EE686B;
+    position: absolute;
+    left: 0.85rem;
+    top:0.5rem;
+}
+.qqg-tui1 li:nth-child(3){
+    width:0.05rem;
+    height:0.05rem;
+    border-radius: 50%;
+    background: #CA9C90;
+    position: absolute;
+    left: 1.25rem;
+    top:0.5rem;
+}
+.qqg-tui1 li:nth-child(4){
+    width:0.1rem;
+    height:0.1rem;
+    border-radius: 50%;
+    background: #21C0B8;
+    position: absolute;
+    left: 1.7rem;
+    top:0.55rem;
+}
+.qqg-tui1 li:nth-child(5){
+    width:0.07rem;
+    height:0.07rem;
+    border-radius: 50%;
+    background: #EE686B;
+    position: absolute;
+    left: 1.85rem;
+    top:0.58rem;
+}
+.qqg-tui1-xian{
+    width:2.25rem;
+    height:0.02rem;
+    background: #82706a;
+    position: absolute;
+    left: 0;
+    top:0.75rem;
+}
+.qqg-tui1-xian1{
+    width:0.05rem;
+    height:0.05rem;
+    background: #8a7972;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top:-0.015rem;
+}
+.qqg-tui1-xian2{
+    width:0.2rem;
+    height:0.05rem;
+    background: #EE686B;
+
+    position: absolute;
+    left:0.2rem;
+    top:-0.015rem;
+}
+.qqg-tui1-xian3{
+    width:0.05rem;
+    height:0.05rem;
+    background: #897873;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    top:-0.015rem;
+}
+
+.qqg-tui1-zi3 a{
+    display: block;
+    width:0.4rem;
+    height:0.6rem;
+
+    text-align: center;
+    line-height: 1.35rem;
+    color: #fff;
+    position: absolute;
+    right:0;
+    top:0.2rem;
+}
+.qqg-tui1-zi3 a img{
+    width:0.4rem;
+    height:0.6rem;
+}
+.qqg-tui1-zi4{
+    position: absolute;
+    left: 0.1rem;
+    bottom:0.05rem;
+}
+.qqg-tui1-zi4 span:nth-child(1){
+    color: #ee686b;
+    font-size: 0.18rem;
+}
+.qqg-tui1-zi4 span:nth-child(2){
+    color: #fff;
+    font-size: 0.14rem;
+}
+
+.qqg-meiri{
+    width:7.02rem;
+    height:7rem;
+
+    margin: auto;
+}
+.qqg-mei1{
+    width:100%;
+    height:1.27rem;
+    background: #fff;
+    border-radius: 0.2rem;
+    display: flex;
+    overflow: hidden;
+    margin-top: 0.1rem;
+}
+.qqg-mei1 .qqg-ri1{
+    flex-grow: 0;
+    width:1.37rem;
+    height:1.27rem;
+
+    border-radius: 0.1rem 0 0 0.1rem ;
+    overflow: hidden;
+}
+.qqg-mei1 .qqg-ri1 img{
+    width:100%;
+    height:1.27rem;
+}
+.qqg-mei1 .qqg-ri2{
+    flex-grow: 1;
+
+    height:1.27rem;
+
+    display: flex;
+}
+.qqg-ri2 .qqg-ri2-left{
+    width: 3.7rem;
+    height:1.27rem;
+
+    float: left;
+    position: relative;
+}
+.qqg-left-1{
+    width: auto;
+    position: absolute;
+    left:0.2rem;
+    top:0.3rem;
+    font-size:0.32rem;
+    font-weight: bold;
+    color: #000;
+
+}
+.qqg-left-2{
+    width:0.4rem;
+    height:0.2rem;
+    border: 1px solid #D49878;
+    border-radius:3px;
+    position: absolute;
+    left:3.2rem;
+    top:0.8rem;
+    font-size:0.1rem;
+    text-align: center;
+    line-height:0.2rem;
+    color: #AE3D00;
+
+}
+.qqg-left-3{
+    position: absolute;
+    left:1.4rem ;
+    top:0.3rem;
+    font-size: 0.32rem;
+    color: #000;
+}
+.qqg-left-4{
+    width: 0.6rem;
+    height:0.25rem;
+    border: 1px solid #D49878;
+    border-radius:3px;
+    position: absolute;
+    left:2.5rem;
+    top:0.8rem;
+    font-size:0.1rem;
+    text-align: center;
+    line-height:0.25rem;
+    color: #BA6342;
+
+}
+.qqg-left-5{
+
+    position: absolute;
+    left:0.2rem;
+    top:0.74rem;
+    font-size:0.1rem;
+
+    color: #5D5D5D;
+
+}
+.qqg-ri2 .qqg-ri2-right{
+    width: 1.95rem;
+    height: 1.27rem;
+
+    float: left;
+    position: relative;
+}
+.qqg-right-1{
+    width: 0.4rem;
+    height:0.47rem;
+    position: absolute;
+    right:1.4rem;
+    top:0.44rem;
+}
+.qqg-right-1 img{
+    width:0.4rem;
+    height:0.47rem;
+}
+.qqg-right-2{
+    width: 0.4rem;
+    height:0.4rem;
+    position: absolute;
+    right:0.8rem;
+    top:0.4rem;
+}
+.qqg-right-2 img{
+    width:0.4rem;
+    height:0.4rem;
+}
+.qqg-right-3{
+    width: 0.4rem;
+    height:0.4rem;
+    position: absolute;
+    right:0.2rem;
+    top:0.4rem;
+}
+.qqg-right-3 img{
+    width:0.4rem;
+    height:0.4rem;
+}
+
+
+.qqg-didi{
+    width:100%;
+    height:0.95rem;
+    text-align: center;
+    line-height: 0.95rem;
+}
+.qqg-didi img{
+    width:2.5rem;
+    height:0.5rem;
+}

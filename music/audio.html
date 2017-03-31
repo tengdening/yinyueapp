@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>播放</title>
+    <meta name = "viewport" content = "width = device-width, initial-scale = 1.0, maximum-scale = 1.0, user-scalable = 0"/>
+    <script src="js/rem.js"></script>
+    <script src="js/zepto.min.js"></script>
+    <script src="js/touch.min.js"></script>
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/bass.css">
+    <link rel="stylesheet" href="css/rzq/rzq-audio.css">
+</head>
+<body>
+<audio src="test/libie.mp3"></audio>
+<div class="bg-show"></div>
+<div class="bg-caozuo"></div>
+<header class="tn-head">
+    <div class="tn-headbox">
+        <i class="tn-t1"></i>
+        <i class="tn-t2"></i>
+        <i class="tn-t3"></i>
+        <a href="javascript: window.history.go(-1);" class="tn-left"></a>
+        <div><p>末班车</p><p>林俊杰</p></div>
+        <a href="" class="zq-right"></a>
+    </div>
+</header>
+<section class="center-section">
+    <div class="show-top">
+        <div class="zhanwei"></div>
+        <ul class="top-li">
+            <li>标准</li>
+            <li>独家</li>
+            <li>MV</li>
+            <li class="action">音效</li>
+        </ul>
+        <div class="swiper-container" style="height:100%;">
+            <div class="swiper-wrapper top-bottom">
+                <div class="swiper-slide zq-songerxiang">
+                    <ul class="zq-songerbox">
+                        <li>
+                            <a href="">
+                                <div class="songertou"></div>
+                                <p>歌手：林俊杰</p>
+                                <img src="images/rzq/zq-gt1.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <div class="songertou"></div>
+                                <p>专辑：梦想的声音&nbsp;&nbsp;第12期</p>
+                                <img src="images/rzq/zq-gt1.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <div class="iconfont zq-songerdan">&#xe650;</div>
+                                <p>单曲详情</p>
+                                <img src="images/rzq/zq-gt1.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <div class="iconfont zq-songerdan">&#xe948;</div>
+                                <p>歌手：林俊杰</p>
+                                <img src="images/rzq/zq-gt1.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <div class="iconfont zq-songerdan">&#xe600;</div>
+                                <p>歌手：林俊杰</p>
+                                <img src="images/rzq/zq-gt1.png" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="swiper-slide">
+                    <div class="show-mid">
+                        <div class="show-rec">
+                            <div class="rec-bg">
+                                <div class="rec-bg-tou"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="geci">
+
+                    </div>
+                </div>
+                <div class="swiper-slide zq-page3-geci">
+                    <div class="zq-geci-box">
+
+                    </div>
+                    <div class="geci">
+                        <a href="javascript:;" class="iconfont zq-huatong">&#xe690;</a>
+                        <a href="javascript:;" class="iconfont zq-ci">&#xe758;</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+         </div>
+    </div>
+    <div class="caozuo-bot">
+        <ul>
+            <li class="iconfont shou">&#xe70a;</li>
+            <li class="iconfont down">&#xe641;</li>
+            <li class="iconfont xiang">&#xe650;</li>
+        </ul>
+        <div class="zq-bar-box">
+            <span class="zq-mucstart">00:00</span>
+            <div class="zq-bar">
+                <div class="zq-bar-yi"><div class="zq-bar-qiu"></div></div>
+            </div>
+            <span class="zq-mucend">00:00</span>
+        </div>
+        <div class="zq-bo-box">
+            <ul class="zq-xunhuan">
+                <li class="active iconfont ">&#xe60a;</li><li class="iconfont">&#xe67a;</li><li class="iconfont">&#xe6af;</li>
+            </ul>
+            <div class="iconfont zq-pre">&#xe602;</div>
+            <ul class="iconfont zq-bo"><li id="" class="iconfont" >&#xe607;</li><li id="action" class="iconfont">&#xe6c5;</li></ul>
+            <div class="iconfont zq-next">&#xe601;</div>
+            <div class="iconfont zq-list">&#xe63e;</div>
+        </div>
+    </div>
+</section>
+</body>
+<script src="js/swiper.min.js"></script>
+<script src="js/rzqjs/lrc.js"></script>
+<script src="js/rzqjs/audio.js"></script>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
+        initialSlide:1
+    });
+</script>
+</html>

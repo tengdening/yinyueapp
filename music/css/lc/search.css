@@ -1,0 +1,48 @@
+.bg {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.bg .btn {
+  width: 2.8rem;
+  height: 2.8rem;
+  background: url(../../images/wqf/searchbtn.png) no-repeat center center / cover;
+  font-size: 0;
+  position: relative;
+}
+.bg .btn img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  animation: move 1s linear 10000;
+  transform: rotate(0);
+  animation-play-state: paused;
+}
+@keyframes move {
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+.bg .btn img:nth-child(1) {
+  width: 1.95rem;
+  height: 1.95rem;
+}
+.bg .btn img:nth-child(2) {
+  width: .42rem;
+  height: .42rem;
+}
+.bg p {
+  font-size: 14px;
+  color: #fff;
+  margin-top: .4rem;
+}

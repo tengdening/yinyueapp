@@ -1,0 +1,45 @@
+html,body{
+    font-size: 14px;
+}
+body{
+    background:-webkit-linear-gradient(#937263,#40323E);
+} 
+
+.center-section{
+	padding:0 .25rem;
+	.line{
+		display:block;
+		width:7.02rem; height: 1px;
+		margin-top:.05rem;
+	}
+	.top{
+		text-align:center;
+		color:#fff;
+		font-size:14px;
+		margin-top:.95rem;
+		p{
+			margin-bottom:.15rem;
+		}
+	}
+
+	.btn{
+		height: 5.97rem; width: 5.97rem;
+		margin:.45rem auto 0;
+		position:relative;
+		background:url(../../images/wqf/stop.png) no-repeat center center /cover;
+		img{
+			width: 3.37rem; height: 3.36rem;
+			position:absolute;
+			top:0; bottom:0; left:0; right:0;
+			margin:auto;
+			animation:move 1s linear 10000;
+			transform:rotate(0);
+			animation-play-state:paused;
+		}
+		    @keyframes move{
+		    	100%{
+					 transform:rotate(-360deg);
+		    	}
+		    }
+	}
+}

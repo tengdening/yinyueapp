@@ -1,0 +1,86 @@
+html,body{
+	font-size: 16px;
+}
+.tn-head{
+	width: 100%;
+	padding: 0 0.24rem;
+	box-sizing: border-box;
+	height: 1.16rem;
+	background: rgba(64,49,63,.9);
+
+}
+.tn-headbox{
+	width: 100%;
+	height: 100%;
+	border-top: 1px solid rgba(255,255,255,.5);
+	position: relative;
+	display: flex;
+	display: -webkit-flex;
+	display: box;
+	align-items:center;
+	justify-content:space-between;
+}
+.tn-t1,.tn-t3{
+	width: 0.32rem;
+	height: 1px;
+	background: #fff;
+	position: absolute;
+	top: -1px;
+}
+.tn-t1{
+	left: 0.87rem;
+}
+.tn-t3{
+	right: 0.87rem;
+}
+.tn-t2{
+	width: 0.98rem;
+	height: 1px;
+	background: #fff;
+	position: absolute;
+	top: -1px;
+	left: 50%;
+	margin-left: -0.49rem;
+}
+.tn-headbox>a{
+	width: 0.62rem;
+	height: 0.62rem;
+}
+.tn-headbox>a:last-child{
+	width: 0.8rem;
+}
+.tn-headbox>.tn-left{
+	background: url(../../images/tn/tn-return_01.png)no-repeat center center/cover;
+}
+.tn-headbox>.tn-right{
+	font-size: 16px;
+	color: #fff;
+	line-height: 0.62rem;
+}
+.tn-headbox>div{
+	font-size: 18px;
+	font-weight: bold;
+	color: #fff;
+	border-radius: 0.27rem;
+	box-sizing: border-box;
+	position: relative;
+}
+.tn-headbox>div input{
+	width: 5.25rem;
+	height: 0.54rem;
+	background: #fff;
+	border: none;
+	border-radius: 0.27rem;
+	box-sizing: border-box;
+	outline: none;
+	color: #999;
+	font-size: 12px;
+	padding-left: 0.2rem;
+}
+.tn-headbox>div img{
+	width: 0.3rem;
+	height: 0.3rem;
+	position: absolute;
+	right: 0.2rem;
+	top: 0.2rem;
+}

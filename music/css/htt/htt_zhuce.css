@@ -1,0 +1,515 @@
+body{
+    display: flex;
+    height: 100%;
+    background: url("../../images/htt/htt_bj.png") no-repeat;
+    background-size: 100%;
+    position: relative;
+    flex-grow: 1;
+    z-index: -99;
+}
+.htt_zz{
+    width: 100%;
+    height: 100%;
+    background-image:linear-gradient(to top,rgba(63,49,62,0.9)10%,rgba(147,114,99,0.9)100%);
+    position: fixed;
+    left: 0;
+    top:0;
+    z-index: -98;
+}
+/*头部开始-*/
+header{
+    height: 0.65rem;
+    padding: 0 0.25rem;
+    z-index:2;
+    line-height: 0.65rem;
+    position: fixed;
+}
+.quxiao{
+    display: flex;
+    font-size: 15px;
+    color: #A9A9A9;
+    z-index:2;
+}
+/*头部结束*/
+/*顶部音符&文字开始--*/
+.center-section{
+    z-index: 222;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 0.65rem;
+}
+/*音符开始*/
+.y-box{
+    width: 100%;
+    height: 2.16rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.yuebox{
+    width: 2.16rem;
+    height: 2.16rem;
+    display: flex;
+    border-radius: 50%;
+    background-image: -webkit-linear-gradient(45deg,#917160,#513d40);
+    background-image:linear-gradient(to right,rgba(81,61,64,1)0%,rgba(143,111,95,1)60%,rgba(81,61,64,1)100%);
+    justify-content: center;
+    align-items: center;
+    z-index: 222222;
+}
+.yue{
+    width: 1.93rem;
+    height: 1.93rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: #fff;
+    z-index: 222222;
+}
+.yinfu{
+    width: 1.41rem;
+    height: 1.37rem;
+    display: flex;
+    align-items: center;
+    background: url("../../images/htt/htt_yinfu.png") no-repeat center center;
+    background-size: cover;
+}
+/*音符结束*/
+/*文字开始*/
+.xianbox{
+    width: 100%;
+    height: 0.22rem;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-top: 0.15rem;
+}
+.xianbox h2{
+    font-size: 10px;
+    color: #544445;
+    justify-content: space-between;
+}
+.xianl{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+.xianr{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+.xiancon{
+    width: 1.8rem;
+    height: 0.01rem;
+    background: #534142;
+    align-items: center;
+    position: relative;
+}
+.yuan1{
+    width: 0.03rem;
+    height: 0.03rem;
+    border-radius: 50%;
+    background: #544445;
+    position: absolute;
+    right: 0;
+    top: -0.01rem;
+}
+.yuan2{
+    width: 0.03rem;
+    height: 0.03rem;
+    border-radius: 50%;
+    background: #544445;
+    position: absolute;
+    left: 0;
+    top: -0.01rem;
+}
+/*文字结束*/
+/*顶部音符&文字结束-*/
+/*注册主体开始*/
+.zcbox{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.8rem;
+    position: relative;
+}
+.zcbox1{
+     width: 5.56rem;
+     height: 5.37rem;
+     align-items: center;
+     background: url("../../images/htt/xiaohui.png") no-repeat center center;
+     background-size: 100%;
+    position: absolute;
+    left: 0.92rem;
+ }
+.zcbox2{
+    width: 6.39rem;
+    height: 6.52rem;
+    align-items: center;
+    background: url("../../images/htt/dabai.png") no-repeat center center;
+    background-size: 100%;
+    position: absolute;
+    top: -1.3rem;
+    left:0.6rem;
+}
+.caiyuan{
+    width: 1.02rem;
+    height: 1.02rem;
+    border-radius: 50%;
+    position: absolute;
+    left: 3.25rem;
+    top: -1.2rem;
+    background: url("../../images/htt/caiyuan.png") no-repeat center center;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.baiyuan{
+    width: 0.78rem;
+    height: 0.78rem;
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.yinfu2{
+    width: 0.65rem;
+    height: 0.68rem;
+    display: flex;
+    align-items: center;
+    background: url("../../images/htt/yinfu3.png") no-repeat center center;
+    background-size: 100%;
+}
+/*注册框开始*/
+.userbox{
+    display: flex;
+    position: absolute;
+    top: 0.4rem;
+    left: 0.6rem;
+    width: 6.3rem;
+}
+.userbox>*{
+    flex-grow: 1;
+}
+.xiaotq{
+    display: flex;
+    align-items: center;
+    flex-grow: 0;
+    width: 1.1rem;
+    justify-content:flex-end;
+}
+.xtq{
+    width: 0.94rem;
+    height: 0.91rem;
+    background: url("../../images/htt/xtqbg.png") no-repeat center center;
+    background-size: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.xtq a{
+    display:flex;
+    width: 0.41rem;
+    height: 0.41rem;
+    align-items: center;
+}
+.xtq a img{
+    display:inline-block;
+    width: 0.41rem;
+}
+.user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.user input{
+    width: 4.85rem;
+    height: 0.86rem;
+    border-radius: 30px;
+    border: 1px solid #F8BDBE;
+    /*color: #A8F1EE;*/
+    font-size: 10px;
+    padding-left: 0.27rem;
+    box-shadow: 2px 1px 2px 2px #FFF4EC;
+    outline: 0;
+}
+/*注册框结束*/
+/*密码框开始*/
+.pwdbox{
+    display: flex;
+    position: absolute;
+    top: 1.6rem;
+    left: 0.6rem;
+    width: 6.3rem;
+}
+.pwdbox>*{
+    flex-grow: 1;
+}
+.pwdbox .xiaotq{
+    display: flex;
+    align-items: center;
+    flex-grow: 0;
+    width: 1.1rem;
+    justify-content:flex-end;
+}
+.pwdbox .xtq a{
+    justify-content: center;
+}
+/*密码框结束*/
+/*问题按钮开始*/
+.wentibox{
+    display: flex;
+    position: absolute;
+    left: 0.6rem;
+    padding-right: 0.36rem;
+    top: 2.75rem;
+    width: 6.3rem;
+}
+.wentibox>*{
+    flex-grow: 1;
+}
+.wenti{
+    flex-grow: 0;
+    width: 1.58rem;
+    display: flex;
+    justify-content: flex-end;
+}
+.wt{
+    display: flex;
+    width: 0.29rem;
+    height: 0.29rem;
+    background: url("../../images/htt/wt.png") no-repeat center center;
+    background-size: 100%;
+}
+.anniu{
+    display: flex;
+    justify-content: flex-end;
+}
+.btnbox{
+    width: 0.95rem;
+    height: 0.5rem;
+    border-radius: 30px;
+    background: #EE686B;
+    border: 2px #FFE6D5;
+
+}
+/*问题按钮结束*/
+/*耳洞大开开始*/
+.erdong{
+    display: flex;
+    width: 4.76rem;
+    height: 0.91rem;
+    justify-content: center;
+    background: url("../../images/htt/eddk.png") no-repeat center center;
+    background-size: 100%;
+    position: absolute;
+    top: 3.5rem;
+    left: 1.3rem;
+    z-index: 22222;
+    border-radius: 28px;
+    box-shadow: 1px 5px 16px 3px #E7D4C7;
+}
+.erdong>*{
+    flex-grow: 1;
+}
+.edl{
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 0;
+    width: 2.54rem;
+    align-items: center;
+}
+.tiao{
+    width: 0.38rem;
+    height: 0.1rem;
+    background: #EE686B;
+    align-items: center;
+    border-radius: 20px;
+    margin-left: 0.05rem;
+    margin-right: 0.05rem;
+}
+.fenyuan{
+    width: 0.1rem;
+    height: 0.1rem;
+    background: #E3A0A1;
+    border-radius: 20px;
+}
+.edr{
+    flex-grow: 0;
+    width: 2.54rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.edm{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.edm h2{
+    display: flex;
+    height: 0.5rem;
+    justify-content:space-between;
+    font-size: 16px;
+    color: #F0777A;
+    align-items:flex-end;
+    font-weight: 600;
+}
+.edm h3{
+    display: flex;
+    /*justify-content: center;*/
+    /*width: 100%;*/
+    font-size: 10px;
+    color: #EE686B;
+    align-items: flex-start;
+}
+/*耳洞大开结束*/
+/*去注册开始*/
+.signup{
+    display: flex;
+    width: 4.76rem;
+    height: 0.91rem;
+    justify-content: center;
+    background: url("../../images/htt/denglv.png") no-repeat center center;
+    background-size: 100%;
+    position: absolute;
+    top: 4.8rem;
+    left: 1.3rem;
+    z-index: 999999999999;
+    border-radius: 28px;
+}
+.juyuan{
+    background: #FBB082;
+}
+.tiaoer{
+    background: #FFDFCB;
+}
+.signup .edm h2{
+    color: #FFFFFF;
+}
+.signup .edm h3{
+    width: 1.24rem;
+    display: flex;
+    color: #FFFFFF;
+    justify-content: space-between;
+}
+/*去注册结束*/
+/*注册主体结束*/
+/*底部开始*/
+.weibo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index:222222;
+    font-size: 10px;
+    color: #C8C3C5;
+    position: absolute;
+    top: 10.8rem;
+    left: 0;
+    align-items: center;
+}
+.guanzhu{
+    width: 100%;
+    display: flex;
+    position: absolute;
+    top: 11.5rem;
+    left: 0;
+    z-index:222222;
+    align-items: center;
+    margin-bottom: 0.8rem;
+}
+.guanzhu>*{
+    flex-grow: 1;
+}
+.xl{
+    flex-grow: 0;
+    width: 2.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.xlcon{
+    width: 1.95rem;
+    height: 0.015rem;
+    background: #FFFFFF;
+}
+.xr{
+    display: flex;
+    align-items: center;
+    flex-grow: 0;
+    width: 2.2rem;
+    justify-content: flex-end;
+}
+.xrcon{
+    width: 1.95rem;
+    height: 0.015rem;
+    background: #FFFFFF;
+}
+.xm{
+    display: flex;
+    justify-content: space-between;
+}
+.xm a{
+    display: flex;
+    width: 0.52rem;
+    height: 0.52rem;
+    border-radius: 50%;
+    background: #B3A9AA;
+    justify-content: center;
+    align-items: center;
+}
+.xm a img{
+    display: flex;
+    width: 0.33rem;
+    height: 0.26rem;
+    align-items: center;
+}
+.QQ{
+    display: flex;
+    width: 0.52rem;
+    height: 0.52rem;
+    border-radius: 50%;
+    background: #B3A9AA;
+    justify-content: center;
+    align-items: center;
+}
+.QQ img{
+    display: flex;
+    width: 0.25rem!important;
+    height: 0.26rem!important;
+    align-items: center;
+}
+.wbicon img{
+    display: flex;
+    width: 0.28rem!important;
+    height: 0.28rem!important;
+}
+/*底部结束*/
+
+/*btn*/
+.anniu{
+    display: flex;
+    justify-content: flex-end;
+    z-index: 9999999999;
+}
+.btnbox{
+    width: 0.95rem;
+    height: 0.5rem;
+    border-radius: 30px;
+    background: #EE686B;
+    border: 2px solid #FFE6D5;
+    position: relative;
+}
+.baibtn{
+    width: 0.4rem;
+    height: 0.4rem;
+    border-radius: 50%;
+    background: #fff;
+    position: absolute;
+    top: 0.03rem;
+    left: 0rem;
+    transition: all 2s;
+}

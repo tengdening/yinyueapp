@@ -1,0 +1,115 @@
+html,body{
+	font-size: 16px;
+}
+.tn-head{
+	width: 100%;
+	padding: 0 0.24rem;
+	box-sizing: border-box;
+	height: 2rem;
+	background: #3f313e;
+}
+.tn-headbox{
+	width: 100%;
+	height: 100%;
+	border-top: 1px solid rgba(255,255,255,.5);
+	position: relative;
+	display: flex;
+	display: -webkit-flex;
+	display: box;
+	align-items:center;
+	justify-content:space-between;
+}
+.tn-t1,.tn-t3{
+	width: 0.32rem;
+	height: 1px;
+	background: #fff;
+	position: absolute;
+	top: -1px;
+}
+.tn-t1{
+	left: 0.87rem;
+}
+.tn-t3{
+	right: 0.87rem;
+}
+.tn-t2{
+	width: 0.98rem;
+	height: 1px;
+	background: #fff;
+	position: absolute;
+	top: -1px;
+	left: 50%;
+	margin-left: -0.49rem;
+}
+.tn-headbox .tn-left-box{
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.tn-leftbox-top{
+	height: 50%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.tn-headbox .tn-left-box .tn-left{
+	width: 0.62rem;
+	height: 0.62rem;
+	background: url(../../images/tn/tn-return_01.png)no-repeat center center/cover;
+}
+.tn-headbox .tn-left-box .tn-leftbox-bottom{
+	display: flex;
+	height: 42%;
+}
+.tn-leftbox-bottom-left{
+	display: flex;
+	flex-direction: column;
+}
+.tn-leftbox-bottom-left>span:nth-child(1){
+	font-size: 18px;
+	color: #fff;
+}
+.tn-leftbox-bottom-left>span:nth-child(2){
+	font-size: 12px;
+	color: #fff;
+}
+.tn-leftbox-bottom-right{
+	display: flex;
+	flex-direction: column;
+}
+.tn-leftbox-bottom-right>span:nth-child(1){
+	font-size: 16px;
+	color: #fff;
+}
+.tn-leftbox-bottom-right>span:nth-child(2){
+	height: 0.3rem;
+}
+.tn-leftbox-bottom-right>span:nth-child(2)>img{
+	height: 100%;
+}
+.tn-right-box{
+	display: flex;
+	flex-direction: column;
+}
+.tn-right-box a{
+	height: 1.06rem;
+}
+.tn-right-box a>img{
+	height: 100%;
+}
+.tn-right-box>span{
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 0.02rem;
+	align-items: center;
+}
+.tn-right-box>span img{
+	width: 0.19rem;
+	height: 0.17rem;
+	margin-right: 0.08rem;
+}
+.tn-right-box>span>span{
+	font-size: 12px;
+	color: #fff;
+	margin-right: 0.2rem;
+}

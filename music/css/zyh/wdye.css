@@ -1,0 +1,126 @@
+body{
+	background: url(../../images/zyh/zyh_bj.png)no-repeat center center/cover;
+}
+.zyh_ye{
+	width: 100%;
+	height: auto;
+	padding:0.1rem 0.25rem  0.97rem 0.25rem;
+}
+.zyh_ye .xian{
+	width: 100%;
+	height: 1px; 
+	position: relative;
+	background: #9D938F;
+}
+.zyh_ye .xian i{
+	position: absolute;
+	height: 1px;
+	background: #EADEDA;
+	top:0;
+}
+.zyh_ye .xian i:nth-child(1){
+	width: 0.32rem;
+	left:1.11rem;
+}
+.zyh_ye .xian i:nth-child(2){
+	width: 0.98rem;
+	left:3.27rem;
+}
+.zyh_ye .xian i:nth-child(3){
+	width: 0.32rem;
+	right:1.18rem;
+}
+.zyh_ye .title{
+	width: 100%;
+	height: 0.7rem;
+	margin-top: 0.18rem;
+}
+.zyh_ye .title p{
+	font-size: 14px;
+	color: #fff;
+}
+.zyh_ye .title p:nth-child(2){
+	font-size: 10px;
+	color: #00DFD7;
+}
+.zyh_ye .title p span{
+	color: #fff;
+}
+.zyh_ye .tp{
+	width: 6.4rem;
+	height: 5.6rem;
+	background: url(../../images/zyh/zyh_18.png)no-repeat center center/cover;
+	margin: 0 auto;
+	margin-top: 1rem;
+	margin-left: 0.55rem;
+	position: relative;
+}
+.zyh_ye .tp p:nth-child(1){
+	position: absolute;
+	top:0.7rem;
+	left:0.45rem;
+	font-size: 10px;
+	color: #fff;
+	text-align: center;
+	width: 80%;
+}
+.zyh_ye .tp p span{
+	color: #00DFD7;
+}
+.zyh_ye .tp h3{
+	display: block;
+	position: absolute;
+	left:2.2rem;
+	bottom:3rem;
+	font-size: 20px;
+	color: #fff;
+}
+.zyh_ye .tp h4{
+	font-size: 14px;
+	color: #B52F33;
+	position: absolute;
+	bottom:2.5rem;
+	left:2.3rem;
+}
+.zyh_ye .tp a{
+	display: block;
+	width: 4.4rem;
+	height: 0.88rem;
+	position: absolute;
+	left:0.7rem;
+	text-align: center;
+
+	bottom:0.3rem;
+}
+.zyh_ye .tp a span{
+	width: 50%;
+	display: block;
+	float: left;
+	font-size: 14px;
+	color: #fff;
+	line-height: 0.9rem;
+}
+
+.zyh_ye .foot{
+	width: 100%;
+	height: 0.65rem;
+	bottom:1.5rem;
+	text-align: center;
+	margin-top: 0.8rem;
+}
+.zyh_ye .foot p:nth-child(1){
+	font-size: 12px;
+	color: #BFBEBE;
+}
+.zyh_ye .foot p:nth-child(2){
+	font-size: 10px;
+	color: #BFBEBE;
+}
+.zyh_ye .foot .xian{
+	width: 0.75rem;
+	height: 0.06rem;
+	background: #E5E5E5;
+	margin: 0 auto;
+	margin-top: 0.1rem;
+}
+
